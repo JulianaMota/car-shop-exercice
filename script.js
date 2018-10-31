@@ -46,5 +46,5 @@ function hideLoader(){
 }
 
 getCars();
-showLoader()
+showLoader();
 

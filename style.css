@@ -87,7 +87,7 @@ img {
     content: '';
     width: 15px;
     height: 15px;
-    background-color: blue;
+    background-color: white;
     border-radius: 50%;
     opacity: 0;
     animation: drip 4s ease infinite;
@@ -101,7 +101,7 @@ img {
     content: '';
     width: 0px;
     height: 0px;
-    border: solid 4px blue;
+    border: solid 4px white;
     border-radius: 50%;
     opacity: 0;
     animation: splash 4s ease infinite;
