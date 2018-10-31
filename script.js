@@ -2,9 +2,6 @@
 // grab template
 const template = document.querySelector("#car-template").content;
 const animationLoader = document.querySelector(".drip");
-let myLoader;
-
-function loaderTime()
 
 //fetch content
 function getCars(){
@@ -16,7 +13,7 @@ function getCars(){
 
 function showCars(carList){
     console.log(carList)
-    //hideLoader()
+    hideLoader()
     carList.forEach(showSingleCar)
 }
 
@@ -39,13 +36,14 @@ function showSingleCar(car){
     document.querySelector("main").appendChild(copy);
 }
 
-/*function showLoader(){
+function showLoader(){
     animationLoader.classList.remove("hide")
 }
 
 function hideLoader(){
     animationLoader.classList.add("hide")
-}*/
+
+}
 
 getCars();
 showLoader()

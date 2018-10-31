@@ -32,6 +32,7 @@ p{
     font-size: 18px;
 }
 
+
 article{
     display: grid;
     align-items: center;
@@ -46,6 +47,8 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(30%, 40%));
     grid-gap: 40px;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 img {
